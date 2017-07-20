@@ -29,6 +29,7 @@ Usage
        INSTALLED_APPS = (
            ...
            'simpleblog',
+	   'django.contrib.humanize', # used by template templates/tags/latest_blog_posts.html
        )
 
 
